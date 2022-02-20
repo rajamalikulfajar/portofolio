@@ -174,3 +174,40 @@ hr {
     margin-bottom: 5px;
     font-size: 12px;
 }
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+    .menu {
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .hero-image{
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero-text {
+        text-align: center;
+        margin-top: 20px;
+        width: auto;
+    }
+    .post {
+        padding: 15px 15px;
+    }
+
+    .post-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    
+}
