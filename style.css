@@ -208,6 +208,53 @@ hr {
         flex-direction: column;
     }
 
-    
+    .content {
+        display: flex;
+        flex-direction: column;
+        padding: 15px 15px;
+    }
+
+    .featured {
+        display: flex;
+    }
+
+    .content-work {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        width: auto;
+        
+    }
+
+    .content-image {
+        display: flex;
+        justify-content: center;
+    }
+
+    .content-text {
+        text-align: center;
+        width: auto;
+    }
+
+    .content-text h2 {
+        font-size: 20px;
+    }
+
+    .content-text button {
+        font-size: 15px;
+    }
+
+    .content-text label {
+        font-size: 15px;
+    }
+
+    .content-text p {
+        margin: 15px 15px;
+    }
+    hr {
+        width: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
     
 }
