@@ -151,7 +151,7 @@
     font-size: 16px;
 }
 
-hr {
+/* hr {
     display: block;
     unicode-bidi: isolate;
     margin-block-start: 0.5em;
@@ -164,8 +164,16 @@ hr {
     background-color: grey;
     margin-top: 40px;
     margin-bottom: 40px;
-}
+} */
 
+hr {
+    width: 1050px;
+    height: 0px;
+    color: #E0E0E0;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
 
 
 /* start footer */
